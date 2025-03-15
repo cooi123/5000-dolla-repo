@@ -4,7 +4,7 @@ import { Text, H1, H2, H3, Paragraph } from "tamagui";
 import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedView } from "@/components/ThemedView";
-import { Button } from "tamagui";
+import { Button, Input } from "tamagui";
 
 export default function HomeScreen() {
   return (
@@ -49,7 +49,8 @@ export default function HomeScreen() {
           fresh <Text>app</Text> directory. This will move the current{" "}
           <Text>app</Text> to <Text>app-example</Text>.
         </Paragraph>
-        <Button theme="blue">Hello</Button>
+        <Button>Hello</Button>
+        <Input placeholder="HElloooo"></Input>
       </ThemedView>
     </ParallaxScrollView>
   );
